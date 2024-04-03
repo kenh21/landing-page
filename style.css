@@ -2,8 +2,8 @@ body{
     display: flex;
     flex-direction: column;
     margin: 0;
-    /* height: 100vh;
-    width: 100vh; */    
+    height: 100vh;
+    padding: 16px 60px;  
 }
 
 .header {
@@ -11,4 +11,18 @@ body{
     flex-grow: 1;
     justify-content: space-between;
     align-items: center;
+}
+
+.links {
+    display: flex;
+    gap: 40px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+h1 {
+    margin: 0;
 }
