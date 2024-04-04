@@ -3,7 +3,7 @@ body{
     flex-direction: column;
     margin: 0;
     height: 100vh;
-    padding: 16px 60px;  
+    padding: 16px 100px;  
 }
 
 .header {
@@ -23,6 +23,24 @@ a {
     color: black;
 }
 
-h1 {
+h1, h2 {
     margin: 0;
+}
+
+.subheader {
+    display: flex;
+    flex-grow: 1;
+    justify-content: space-between;
+    padding: 100px 0 100px 0;
+}
+.sub1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    
+}
+
+.subpic1 {
+    height: 40vh;
 }
