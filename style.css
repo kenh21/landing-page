@@ -32,6 +32,20 @@ a {
 h1, h2 {
     margin: 0;
 }
+.subtext, a {
+    font-size: 18px;
+    color: #f9faf8;
+}
+h1{
+    font-size: 24px;
+    color: #f9faf8;
+}
+
+h2 {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #f9faf8
+}
 
 .subheader {
     display: flex;
