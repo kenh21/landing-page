@@ -110,7 +110,7 @@ h2 {
 .qtext{
     display: flex;
     margin-bottom: 0;
-    width: 60%;
+    width: 55%;
     font-style: italic;
     font-weight: lighter;
     
@@ -121,5 +121,24 @@ h2 {
     align-self: flex-end;
     width: 40%;
     font-weight: bolder;
+}
+
+.signup {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #3882f6;
+    color: #f9faf8;
     
+}
+
+.button2 {
+    display: flex;
+    justify-self: center;
+    align-self: center;
+    padding: 5px 18px;
+    background-color: #3882f6;
+    color: #f9faf8;
+    border: 1px solid #f9faf8;
+    border-radius: 5px;
+
 }
