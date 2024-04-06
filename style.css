@@ -3,14 +3,20 @@ body{
     flex-direction: column;
     margin: 0;
     height: 100vh;
-    padding: 16px 100px;  
+}
+
+.headercontainer {
+    padding: 16px 100px;
+    background-color: #1f2937;
+    color: white;
+
 }
 
 .header {
     display: flex;
     flex-grow: 1;
     justify-content: space-between;
-    align-items: center;
+    align-items: center;    
 }
 
 .links {
@@ -20,7 +26,7 @@ body{
 
 a {
     text-decoration: none;
-    color: black;
+    color: white;
 }
 
 h1, h2 {
@@ -75,6 +81,7 @@ h1, h2 {
     width: 150px;
     height: 150px;
 }
+
 
 .main2 {
     font-size: 36px;
