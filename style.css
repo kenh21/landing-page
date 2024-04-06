@@ -75,3 +75,30 @@ h1, h2 {
     width: 150px;
     height: 150px;
 }
+
+.main2 {
+    font-size: 36px;
+    background-color: #e5e7eb;
+    padding-top: 70px;
+    padding-bottom: 70px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.qtext{
+    display: flex;
+    margin-bottom: 0;
+    width: 60%;
+    font-style: italic;
+    font-weight: lighter;
+    
+}
+.quote{
+    margin: 0;
+    display: flex;
+    align-self: flex-end;
+    width: 40%;
+    font-weight: bolder;
+    
+}
