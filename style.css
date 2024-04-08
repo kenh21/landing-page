@@ -42,9 +42,12 @@ h1{
 }
 
 h2 {
+    margin-bottom: 0;
     font-size: 48px;
     font-weight: bolder;
-    color: #f9faf8
+    color: #f9faf8;
+
+    
 }
 
 .subheader {
@@ -52,17 +55,27 @@ h2 {
     flex-grow: 1;
     justify-content: space-between;
     padding: 100px 0 100px 0;
+    gap: 150px;
 }
 .sub1 {
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
     align-items: flex-start;
+    flex-basis: 600px;
     
 }
 
 .subpic1 {
-    height: 40vh;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    max-height: 1660px;
+    max-height: 938.844px;
+}
+
+.subpicdiv{
+    flex: 1 1 150px;
 }
 
 .button1 {
