@@ -50,6 +50,10 @@ h2 {
     
 }
 
+h3 {
+    font-size: 32px;
+}
+
 .subheader {
     display: flex;
     flex-grow: 1;
@@ -91,6 +95,7 @@ h2 {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    padding-bottom: 40px;
 }
 
 .m1 {
